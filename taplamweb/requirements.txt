@@ -1,4 +1,4 @@
-django-heroku==2.0
-Django==4.0.2
+django-heroku
+Django
 gunicorn
 
