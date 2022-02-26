@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-y&vli=74k4axo+e)xrx!h+wlnpv)le8oi7lh3=a_@b@o2f$gkr
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['.herokuapp']
+ALLOWED_HOSTS = []
 
 
 # Application definition
@@ -123,4 +123,4 @@ STATIC_URL = 'http://www.taisaolaithe.herokuapp.com/static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 #activate django-heroku
-django_heroku.setting(locals())
+django_heroku.settings(locals())
