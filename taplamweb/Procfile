@@ -1,1 +1,1 @@
-web:gunicorn taplamweb.wsgi
+web: gunicorn taplamweb.wsgi
