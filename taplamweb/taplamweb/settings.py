@@ -123,4 +123,4 @@ STATIC_URL = 'http://www.taisaolaithe.herokuapp.com/static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 #activate django-heroku
-django_localhost.setting(locals())
+django_heroku.setting(locals())
